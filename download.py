@@ -4,7 +4,7 @@
 import os
 
 def download_model():
-    os.makedirs('output', exist_ok=True)
+    os.makedirs('gfpgan/weights', exist_ok=True)
     # download weights
     if not os.path.exists('gfpgan/weights/realesr-general-x4v3.pth'):
         os.system(
