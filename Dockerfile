@@ -6,7 +6,7 @@ FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime
 WORKDIR /
 
 # Install git
-RUN apt-get update && apt-get install -y git libgl1-mesa-glx libglib2.0-0
+RUN apt-get update && apt-get install -y git wget libgl1-mesa-glx libglib2.0-0
 RUN conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 
 # Install python packages
