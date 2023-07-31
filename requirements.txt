@@ -1,3 +1,11 @@
 potassium
-torch
-transformers
+numpy
+lmdb
+opencv-python
+PyYAML
+tqdm
+yapf
+basicsr
+facexlib
+scipy
+realesrgan
